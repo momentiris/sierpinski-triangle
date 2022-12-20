@@ -1,0 +1,33 @@
+{
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "lint": "eslint src",
+    "test:ui": "vitest --ui"
+  },
+  "dependencies": {
+    "@react-three/drei": "^9.47.1",
+    "@react-three/fiber": "^8.9.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "three": "^0.147.0"
+  },
+  "devDependencies": {
+    "@iteam/eslint-config-react": "0.3.5",
+    "@nabla/vite-plugin-eslint": "1.4.1",
+    "@testing-library/jest-dom": "5.16.5",
+    "@testing-library/react": "13.4.0",
+    "@testing-library/user-event": "14.4.3",
+    "@vitejs/plugin-react": "2.2.0",
+    "autoprefixer": "10.4.13",
+    "jsdom": "20.0.3",
+    "prettier-plugin-tailwindcss": "0.2.1",
+    "tailwindcss": "3.2.4",
+    "vite": "3.2.5",
+    "vitest": "0.25.6"
+  }
+}
